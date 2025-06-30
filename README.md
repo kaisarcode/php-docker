@@ -22,15 +22,15 @@ This project provides a complete PHP development environment, with Apache, PHP, 
 4. Access your PHP application at `http://localhost:8888`
 5. Access phpMyAdmin at `http://localhost:8889`
 
-## Example `.env` file
+## .env file
 
 ```makefile
-PROJID="phproj"
-WEB_PORT=8888
-PMA_PORT=8889
-USER="admin"
-PASS="admin"
-DBIMAGE="mysql:8"
+PROJID="phproj"       # Project identifier, used for naming containers
+WEB_PORT=8888         # Local port for the web service (Apache/PHP)
+PMA_PORT=8889         # Local port for phpMyAdmin
+USER="admin"          # MySQL database user
+PASS="admin"          # Password for the MySQL user
+DBIMAGE="mysql:8"     # Docker image for the MySQL database
 ```
 
 ## PHP version
