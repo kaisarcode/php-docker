@@ -28,8 +28,8 @@ This project provides a complete PHP development environment, with Apache, PHP, 
 PROJID="phproj"       # Project identifier, used for naming containers
 WEB_PORT=8888         # Local port for the web service (Apache/PHP)
 PMA_PORT=8889         # Local port for phpMyAdmin
-USER="admin"          # MySQL database user
-PASS="admin"          # Password for the MySQL user
+USER="admin"          # MySQL / PHPMyAdmin user
+PASS="admin"          # MySQL / PHPMyAdmin password
 DBIMAGE="mysql:8"     # Docker image for the MySQL database
 ```
 
