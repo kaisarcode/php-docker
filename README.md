@@ -8,7 +8,7 @@ This project provides a complete PHP development environment, with Apache, PHP, 
 
 ## Features
 
-* PHP 8.1 (configurable via the `PHP_VERSION` environment variable)
+* PHP 8+
 * Apache with mod_php
 * MySQL (with phpMyAdmin for administration)
 * Composer for dependency management
@@ -32,6 +32,9 @@ USER="admin"
 PASS="admin"
 DBIMAGE="mysql:8"
 ```
+
+## PHP version
+The PHP version id configurable via the `PHP_VERSION` environment variable in the Dockerfile.
 
 ## License
 
