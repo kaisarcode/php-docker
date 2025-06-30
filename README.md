@@ -33,8 +33,8 @@ PASS="admin"
 DBIMAGE="mysql:8"
 ```
 
-## Licencia
+## License
 
 [![GPLv3](https://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl-3.0.html)
 
-Este proyecto se distribuye bajo la licencia **GNU General Public License versión 3 (GPLv3)**.
+This project is licensed under the **GNU General Public License version 3 (GPLv3)**.
