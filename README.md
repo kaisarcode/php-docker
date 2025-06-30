@@ -1,5 +1,4 @@
 # PHP Docker
-================
 
 A PHP development environment using Docker.
 
@@ -26,8 +25,12 @@ This project provides a complete PHP development environment, with Apache, PHP, 
 ## Example `.env` file
 
 ```makefile
-PORT=8888
-PHP_VERSION=8.1
+PROJID="phproj"
+WEB_PORT=8888
+PMA_PORT=8889
+USER="admin"
+PASS="admin"
+DBIMAGE="mysql:8"
 ```
 
 ## Licencia
