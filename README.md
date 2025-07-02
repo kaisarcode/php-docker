@@ -8,12 +8,11 @@ This project provides a complete PHP development environment, with Apache, PHP, 
 
 ## Features
 
-- **PHP 8+** with Apache (mod_php)
-- **MySQL** database with persistent storage
-- **phpMyAdmin** for database management
-- **Composer** for PHP dependency management
-- **Configurable via `.env` file**
-- **Customizable ports** for all services
+* PHP 8+
+* Apache with mod_php
+* MySQL (with phpMyAdmin for administration)
+* Composer for dependency management
+* Apache configuration with rewrite module enabled
 
 ## Usage
 
