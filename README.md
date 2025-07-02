@@ -8,11 +8,12 @@ This project provides a complete PHP development environment, with Apache, PHP, 
 
 ## Features
 
-* PHP 8+
-* Apache with mod_php
-* MySQL (with phpMyAdmin for administration)
-* Composer for dependency management
-* Apache configuration with rewrite module enabled
+- **PHP 8+** with Apache (mod_php)
+- **MySQL** database with persistent storage
+- **phpMyAdmin** for database management
+- **Composer** for PHP dependency management
+- **Configurable via `.env` file**
+- **Customizable ports** for all services
 
 ## Usage
 
@@ -25,12 +26,14 @@ This project provides a complete PHP development environment, with Apache, PHP, 
 ## .env file
 
 ```makefile
-PROJID="phproj"       # Project identifier, used for naming containers
-WEB_PORT=8888         # Local port for the web service (Apache/PHP)
-PMA_PORT=8889         # Local port for phpMyAdmin
-USER="admin"          # MySQL / PHPMyAdmin user
-PASS="admin"          # MySQL / PHPMyAdmin password
-DBIMAGE="mysql:8"     # Docker image for the MySQL database
+PROJID="phproj"         # Project identifier used as prefix for container names and networks
+WEB_PORT=8888           # Host port mapped to the PHP/Apache web server container
+PMA_PORT=8889           # Host port mapped to the phpMyAdmin container
+DB_USER="admin"         # MySQL database username
+DB_PASS="admin"         # MySQL database password
+MA_USER="admin"         # phpMyAdmin username
+MA_PASS="admin"         # phpMyAdmin password
+DBIMAGE="mysql:8"       # MySQL Docker image version to use
 ```
 
 ## PHP version
